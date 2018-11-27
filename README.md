@@ -15,6 +15,18 @@
 ### [237. Delete Node in a Linked List][10] 
 > **一般要删掉一个节点都要用该节点的前一个指针，但是现在直接给要删的指针，这时可以从该节点开始将后面的指针的数据向前覆盖，到最后一个的时候指向null就可以了，这里不用考虑指针在头部和尾部的情况，较为简单**
 
+### [2. Add Two Numbers][11]
+> **看别人的题解大都是生成新的节点链接在一起，我是在原链表上操作，讲道理申请空间不用时间的吗，-_-! 为啥比他们的慢，虽然判断多了一些**
+### [67. Add Binary][12]
+> **没什么好说的，直接取值操作即可，判断进位即可**
+### [66. Plus One][13]
+> **代码写的好烂。。。。**
+### [53. Maximum Subarray][14]
+> **dp**
+### [121. Best Time to Buy and Sell Stock][15]
+> **dp，用一个变量保存最低买入价格，在遍历的时候更新最大收益及最低买入价格**
+### [70. Climbing Stairs][16]
+> **类似斐波那契数列**
 
 [1]: https://leetcode.com/problems/two-sum/description/
 [2]: https://leetcode.com/problems/3sum/description/
@@ -26,3 +38,9 @@
 [8]: https://leetcode.com/problems/reverse-linked-list-ii/description/
 [9]: https://leetcode.com/problems/remove-linked-list-elements/description/
 [10]: https://leetcode.com/problems/delete-node-in-a-linked-list/description/
+[11]: https://leetcode.com/problems/add-two-numbers/description/
+[12]: https://leetcode.com/problems/add-binary/description/
+[13]: https://leetcode.com/problems/plus-one/description/
+[14]: https://leetcode.com/problems/maximum-subarray/description/
+[15]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
+[16]: https://leetcode.com/problems/climbing-stairs/description/
